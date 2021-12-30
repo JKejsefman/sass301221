@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+    
+    .contenedor_grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+    
+    .contenedor_grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat( 6 , 1fr );
+    }
+
+    .barra_navegacion{
+        flex-direction: column;
+    }
+}
